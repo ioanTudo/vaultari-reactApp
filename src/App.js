@@ -3,7 +3,6 @@ import "./App.css";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import Navbar from "./nav/navbar.jsx";
 import Header from "./components/header/header.jsx";
 import Products from "./templates/products/products.jsx";
 import ClientResources from "./templates/client-resources/client-resources.jsx";
