@@ -1,0 +1,12 @@
+.phone {
+  font-weight: bolder;
+
+  grid-area: phone;
+
+  text-decoration: none;
+
+  text-transform: uppercase;
+
+  grid-column: 3/3;
+  grid-row: 1/2;
+}

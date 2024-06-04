@@ -1,0 +1,20 @@
+.header {
+  display: grid;
+  grid-template-columns: 50px 1fr 200px;
+  grid-template-rows: auto;
+
+  align-items: center;
+  text-align: center;
+
+  padding: 20px;
+
+  background-color: #072975;
+}
+.header a {
+  color: white;
+  text-decoration: none;
+}
+
+.header a:hover {
+  color: #fdde55;
+}
