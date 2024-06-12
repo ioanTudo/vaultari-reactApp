@@ -1,5 +1,5 @@
 import "./header.css";
-import Navbar from "../../nav/navbar";
+import Navbar from "../nav/Navbar";
 import Logo from "../logo/logo";
 import Phone from "../phone/phone";
 
