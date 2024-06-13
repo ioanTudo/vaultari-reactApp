@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 
 function MenuListItems() {
   return Menu.map((menuItem) => (
-    <Link to={menuItem.path}>
-      <li className="nav--list " key={menuItem.id}>
+    <li className="nav--list ">
+      <Link key={menuItem.id} to={menuItem.path}>
         {menuItem.name}
-      </li>
-    </Link>
+      </Link>
+    </li>
   ));
 }
 
