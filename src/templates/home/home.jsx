@@ -1,11 +1,12 @@
-import Header from "../../components/header/header";
+import { HomeContent } from "../../components/content/home/homeContent";
+import HomePageHero from "../../components/hero/home/homePageHero";
 
 const Home = () => {
   return (
-    <>
-      <Header />
-      <div className="home"></div>
-    </>
+    <div key="home">
+      <HomePageHero />
+      <HomeContent />
+    </div>
   );
 };
 
