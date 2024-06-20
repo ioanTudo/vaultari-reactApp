@@ -4,6 +4,9 @@ import { SelectionImages } from "./selectionImages";
 import style from "./home.module.css";
 import { FeedBackContainer } from "./feedbackContainer/feedbackContainer";
 import { MoreInfoList } from "./moreInfoContainer/moreInfoList";
+import { GetQuoteList } from "./getQuoteContainer/getQuoteList";
+
+import { OurPartners } from "./ourPartners/ourPartnersContainer";
 
 export const HomeContent = () => {
   return (
@@ -26,6 +29,12 @@ export const HomeContent = () => {
         <div className={style.moreInfoGridWrapper}>
           <MoreInfoList />
         </div>
+      </div>
+      <div className={style.getQuoteContainer}>
+        <GetQuoteList />
+      </div>
+      <div className={style.ourPartnersContainer}>
+        <OurPartners />
       </div>
     </body>
   );

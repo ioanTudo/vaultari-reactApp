@@ -1,0 +1,20 @@
+@media (min-width: 500px) {
+  .getQuoteFlexWrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .heading {
+    font-size: large;
+
+    background: url(../../../../images/banners/index-page/blueCenterDivider.png)
+      bottom no-repeat;
+
+    padding: 30px;
+    text-transform: capitalize;
+  }
+  .content {
+    font-size: small;
+    padding-bottom: 30px;
+  }
+}
