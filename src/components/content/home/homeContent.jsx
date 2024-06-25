@@ -4,13 +4,13 @@ import { SelectionImages } from "./selectionImages";
 import style from "./home.module.css";
 import { FeedBackContainer } from "./feedbackContainer/feedbackContainer";
 import { MoreInfoList } from "./moreInfoContainer/moreInfoList";
-import { GetQuoteList } from "./getQuoteContainer/getQuoteList";
+import { GetQuoteList } from "../../getQuoteContainer/getQuoteList";
 
 import { OurPartners } from "./ourPartners/ourPartnersContainer";
 
 export const HomeContent = () => {
   return (
-    <body className={style.home}>
+    <>
       <div className="blueDescription">
         <BlueDescription />
       </div>
@@ -30,12 +30,12 @@ export const HomeContent = () => {
           <MoreInfoList />
         </div>
       </div>
-      <div className={style.getQuoteContainer}>
-        <GetQuoteList />
-      </div>
+
+      <GetQuoteList />
+
       <div className={style.ourPartnersContainer}>
         <OurPartners />
       </div>
-    </body>
+    </>
   );
 };

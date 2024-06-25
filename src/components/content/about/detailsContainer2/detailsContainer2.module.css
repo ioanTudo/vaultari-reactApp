@@ -1,0 +1,29 @@
+@media (min-width: 500px) {
+  .detailContainer1FlexWrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .DetailsContainer2Background {
+    background-image: url(../../../../images/banners/about-page/vaultariBackground-blue-about.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+  }
+  .detailContainer2TextContainer {
+    text-align: center;
+  }
+  .headingDetailContainer2 {
+    color: white;
+    font-size: large;
+
+    background: url(../../../../images/banners/about-page/tinyBlueDivider-center.png)
+      center bottom no-repeat;
+    padding: 30px;
+  }
+  .contentDetailContainer2 {
+    color: white;
+    font-size: small;
+  }
+}
