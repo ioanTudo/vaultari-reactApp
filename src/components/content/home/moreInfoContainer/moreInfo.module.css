@@ -1,0 +1,17 @@
+.moreInfoTextContainer {
+  background-color: #2b4885;
+  color: white;
+
+  padding: 30px;
+}
+
+@media (min-width: 500px) {
+  .heading {
+    font-size: large;
+
+    background: url(../../../../images/banners/index-page/blueFloatLeftDivider.png)
+      left bottom no-repeat;
+
+    padding: 30px;
+  }
+}

@@ -1,0 +1,35 @@
+.subHeading {
+  color: white;
+  text-transform: capitalize;
+}
+
+.heading {
+  text-transform: capitalize;
+
+  color: white;
+}
+
+@media (min-width: 500px) {
+  .flexWrapper {
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+  }
+
+  .homeHero {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../../../images/banners/index-page/homepage_01.jpg);
+    width: 100%;
+    height: 50vh;
+  }
+
+  .subHeading {
+    padding: 0;
+  }
+  .textContainer {
+    margin-top: 5%;
+  }
+}

@@ -1,0 +1,50 @@
+.description {
+  color: #3f3f3f;
+}
+.feedback-text {
+  color: red;
+  text-transform: capitalize;
+}
+
+.testimonialHeader {
+  text-align: center;
+  color: #072975;
+  text-transform: uppercase;
+}
+
+.feedback-user {
+  text-transform: capitalize;
+}
+
+@media (min-width: 500px) {
+  .heading {
+    background: url(../../../../images/banners/index-page/blueCenterDivider.png)
+      bottom no-repeat;
+
+    font-size: large;
+
+    color: #072975;
+
+    padding-bottom: 30px;
+  }
+  .textContent {
+    text-align: center;
+    margin: 20px;
+  }
+  .feedbackGridWrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .feedback-zone-container {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    text-align: center;
+    width: 70%;
+    padding: 40px 0;
+
+    margin: auto;
+
+    background-color: white;
+  }
+}
