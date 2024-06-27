@@ -1,0 +1,21 @@
+@media (min-width: 500px) {
+  .heroContactFlexWrapper {
+    display: flex;
+    flex-direction: column;
+
+    background-image: url(../../../images/banners/contact-page/contactBanner.jpg);
+
+    height: 20vh;
+    width: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .contactHeroContent {
+    margin: auto;
+  }
+  .contactHeroContent h1 {
+    text-transform: capitalize;
+  }
+}

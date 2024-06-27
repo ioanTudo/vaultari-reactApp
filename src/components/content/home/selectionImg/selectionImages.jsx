@@ -1,5 +1,5 @@
 import { selectionImages } from "./selectionBar";
-import styles from "./home.module.css";
+import styles from "../home.module.css";
 
 export const SelectionImages = () => {
   return selectionImages.map((selection) => (

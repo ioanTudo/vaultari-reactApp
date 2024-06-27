@@ -1,6 +1,6 @@
 import React from "react";
-import { BlueDescription } from "./description";
-import { SelectionImages } from "./selectionImages";
+import { BlueDescription } from "./descriptionContainer/description.jsx";
+import { SelectionImages } from "./selectionImg/selectionImages.jsx";
 import style from "./home.module.css";
 import { FeedBackContainer } from "./feedbackContainer/feedbackContainer";
 import { MoreInfoList } from "./moreInfoContainer/moreInfoList";
