@@ -7,10 +7,10 @@ const Feedback = ({ user, role, text, rating }) => {
     .map((_, id) => <span key={id} className="fa fa-star checked"></span>);
 
   return (
-    <div className={styles["feedback-zone-container"]}>
+    <div className={styles.feedbackZone}>
       {stars}
-      <p className={styles["feedback-text"]}>{text}</p>
-      <h2 className={styles["feedback-user"]}>{user}</h2>
+      <p className={styles.feedbackText}>{text}</p>
+      <h2 className={styles.feedbackUser}>{user}</h2>
       <span>{role}</span>
     </div>
   );

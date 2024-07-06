@@ -2,6 +2,9 @@ h1,
 p {
   color: white;
 }
+.blueLayer .textContent p {
+  line-height: 1.6;
+}
 
 .blueLayer {
   background-image: url(../../../images/banners/index-page/blueBackgroundLayer.jpg);
@@ -111,59 +114,42 @@ p {
   .selectionTextContent {
     margin-top: 50px;
   }
+}
 
-  .feedbackFlexWrapper {
-    display: flex;
-    flex-direction: column;
+@media (min-width: 750px) {
+  .selectionGridWrapper {
+    grid-template-columns: 1fr 1fr;
   }
+  .blueLayer h1 {
+    font-size: larger;
+  }
+  .blueLayer .textContent p {
+    padding: 20px;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+  }
+}
 
-  .feedbackContainer {
-    background-image: url(../../../images/banners/index-page/whiteVaultariBackground.jpg);
-
+@media (min-width: 1200px) {
+  .blueLayer h1 {
+    font-size: 30px;
+  }
+  .blueLayer .textContent p {
+    padding: 0 20px;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    font-size: 15px;
+  }
+  .blueLayer {
+    height: 70vh;
     width: 100%;
+
     background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    display: flex;
-    flex-direction: column;
-  }
-  .feedbackContainer ::after {
-    content: "";
-    height: 70px;
-    width: 2px;
-    background-color: #1951d6;
-
-    margin: auto;
   }
 
-  .moreInfoGridWrapper {
-    display: grid;
-    grid-template-columns: 1fr;
-
-    gap: 50px;
-  }
-  .moreInfoContainer ::after {
-    content: "";
-    height: 70px;
-    width: 2px;
-    background-color: #1951d6;
-
-    margin: auto;
-  }
-
-  .moreInfoContainer ::before {
-    content: "";
-    height: 70px;
-    width: 2px;
-    background-color: #1951d6;
-
-    margin: auto;
-  }
-
-  .moreInfoContainer {
-    background-color: #072975;
-
-    margin: auto;
+  .selectionGridWrapper {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }

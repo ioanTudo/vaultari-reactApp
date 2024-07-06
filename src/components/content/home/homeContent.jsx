@@ -2,11 +2,15 @@ import React from "react";
 import { BlueDescription } from "./descriptionContainer/description.jsx";
 import { SelectionImages } from "./selectionImg/selectionImages.jsx";
 import style from "./home.module.css";
-import { FeedBackContainer } from "./feedbackContainer/feedbackContainer";
+import {
+  FeedBackContainer,
+  FeedbackContainer,
+} from "./feedbackContainer/feedbackContainer";
 import { MoreInfoList } from "./moreInfoContainer/moreInfoList";
 import { GetQuoteList } from "../../getQuoteContainer/getQuoteList";
 
 import { OurPartners } from "./ourPartners/ourPartnersContainer";
+import { MoreInfoDisplay } from "./moreInfoContainer/MoreInfoDisplay.jsx";
 
 export const HomeContent = () => {
   return (
@@ -21,16 +25,8 @@ export const HomeContent = () => {
         </div>
       </div>
 
-      <div className={style.feedbackContainer}>
-        <FeedBackContainer />
-      </div>
-
-      <div className={style.moreInfoContainer}>
-        <div className={style.moreInfoGridWrapper}>
-          <MoreInfoList />
-        </div>
-      </div>
-
+      <FeedbackContainer />
+      <MoreInfoDisplay />
       <GetQuoteList />
 
       <div className={style.ourPartnersContainer}>

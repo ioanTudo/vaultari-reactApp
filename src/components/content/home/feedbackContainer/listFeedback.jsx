@@ -1,19 +1,18 @@
 import { feedbackData } from "./feedbackData";
 import Feedback from "./feedbackUsers";
-import styles from "./feedbackContainer.module.css";
 
-export const ListFeedback = () => {
+export const FeedbackUsersContainer = () => {
   return (
-    <div className={styles.feedbackGridWrapper}>
-      {feedbackData.map((feedback, index) => (
+    <>
+      {feedbackData.map((data, index) => (
         <Feedback
           key={index}
-          user={feedback.user}
-          role={feedback.role}
-          text={feedback.text}
-          rating={feedback.rating}
+          user={data.user}
+          role={data.role}
+          text={data.text}
+          rating={data.rating}
         />
       ))}
-    </div>
+    </>
   );
 };
