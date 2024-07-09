@@ -52,4 +52,10 @@
   .detailContainer1GridWrapper img {
     width: 90%;
   }
+  .contentDetailContainer1 {
+    font-size: 15px;
+  }
+  .headingDetailContainer1 {
+    font-size: 30px;
+  }
 }

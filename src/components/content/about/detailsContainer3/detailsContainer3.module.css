@@ -44,4 +44,10 @@
   .detailContainer3GridWrapper {
     grid-template-columns: 1fr 1fr;
   }
+  .detailContainer3GridWrapper .contentDetailContainer3 {
+    font-size: 15px;
+  }
+  .headingDetailContainer3 {
+    font-size: 30px;
+  }
 }
