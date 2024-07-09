@@ -16,3 +16,14 @@
     margin: auto;
   }
 }
+@media (min-width: 750px) {
+  .heroAboutFlexWrapper {
+    height: 25vh;
+  }
+}
+
+@media (min-width: 1200px) {
+  .heroAboutFlexWrapper {
+    height: 30vh;
+  }
+}
