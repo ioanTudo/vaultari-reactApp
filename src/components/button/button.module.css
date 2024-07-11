@@ -20,6 +20,9 @@
 
   text-transform: uppercase;
 }
+.position {
+  margin: auto;
+}
 
 .button:hover {
   background-image: linear-gradient(to left, red, orange);
