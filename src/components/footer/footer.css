@@ -21,7 +21,7 @@ a {
   color: white;
   text-decoration: none;
 }
-a:hover {
+.contact-container a:hover {
   color: #fdde55;
 }
 

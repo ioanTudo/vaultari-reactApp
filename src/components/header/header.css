@@ -3,9 +3,6 @@
   text-decoration: none;
 }
 
-.header a:hover {
-  color: #fdde55;
-}
 @media (min-width: 500px) {
   .header {
     display: grid;

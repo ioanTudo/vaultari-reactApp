@@ -5,6 +5,7 @@ export const selectionImages = [
     content:
       "It is important for business owners to consider and evaluate their business insurance needs",
     styleImg: "boat-div",
+    path: "/commercial-lines",
   },
 
   {
@@ -13,6 +14,7 @@ export const selectionImages = [
     content:
       "It is important for business owners to consider and evaluate their business insurance needs",
     styleImg: "heart-div",
+    path: "/non-profit-insurance",
   },
 
   {
@@ -21,6 +23,7 @@ export const selectionImages = [
     content:
       "It is important for business owners to consider and evaluate their business insurance needs",
     styleImg: "mountain-div",
+    path: "/risk-management",
   },
 
   {
@@ -29,5 +32,6 @@ export const selectionImages = [
     content:
       "It is important for business owners to consider and evaluate their business insurance needs",
     styleImg: "worker-div",
+    path: "/speciality-industry",
   },
 ];

@@ -15,8 +15,20 @@ function MenuListItems() {
       {Menu.map((menuItem, index) => (
         <li className="nav--list" key={menuItem.id}>
           <NavLink
+            key={menuItem.id}
+            className="link"
             style={{
               color: selectedIndex === index ? menuItem.selected : "white",
+            }}
+            onMouseOver={(e) => {
+              if (selectedIndex !== index) {
+                e.target.style.color = "#fdde55";
+              }
+            }}
+            onMouseOut={(e) => {
+              if (selectedIndex !== index) {
+                e.target.style.color = "white";
+              }
             }}
             onClick={() => handleClick(index)}
             to={menuItem.path}
