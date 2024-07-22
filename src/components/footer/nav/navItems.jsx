@@ -1,9 +1,15 @@
 import { NavLink } from "react-router-dom";
 import { navData } from "./navData";
 
-function BottomNavItems() {
+const BottomNavItems = () => {
   return navData.map((navItems) => (
     <NavLink
+      onMouseOver={(e) => {
+        e.target.style.color = " #fdde55";
+      }}
+      onMouseLeave={(e) => {
+        e.target.style.color = "white";
+      }}
       className={navItems.className}
       key={navItems.id}
       to={navItems.path}
@@ -11,6 +17,6 @@ function BottomNavItems() {
       {navItems.name}
     </NavLink>
   ));
-}
+};
 
 export default BottomNavItems;

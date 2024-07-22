@@ -29,6 +29,10 @@ a {
   text-transform: uppercase;
   font-weight: bold;
 }
+
+.grid-wrapper a :hover {
+  color: #fdde55;
+}
 .bottom-nav-container .grid-wrapper {
   padding: 15px;
   text-align: center;
