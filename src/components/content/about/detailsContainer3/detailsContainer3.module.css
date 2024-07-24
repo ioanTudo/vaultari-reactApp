@@ -1,5 +1,9 @@
 .contentDetailContainer3 {
   line-height: 1.7;
+  font-family: "Montserrat ", sans-serif;
+}
+.headingDetailContainer3 {
+  font-family: "Playfair Display", serif;
 }
 
 @media (min-width: 500px) {
@@ -46,6 +50,7 @@
   }
   .detailContainer3GridWrapper .contentDetailContainer3 {
     font-size: 15px;
+    width: 80%;
   }
   .headingDetailContainer3 {
     font-size: 30px;
