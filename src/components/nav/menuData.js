@@ -13,7 +13,7 @@ export const Menu = [
   },
   {
     id: 2,
-    name: "client",
+    name: "client resources",
     selected: "red",
     path: "/client-resources",
   },

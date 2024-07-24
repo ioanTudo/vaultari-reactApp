@@ -2,7 +2,6 @@ export const contactData = [
   {
     key: 0,
     name: "street",
-    path: "/street",
   },
   {
     key: 1,

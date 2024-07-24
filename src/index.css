@@ -5,6 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --font-family-nav: "Montserrat", sans-serif;
+  --font-family-text: "Playfair Display", serif;
 }
 
 code {
