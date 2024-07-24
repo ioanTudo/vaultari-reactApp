@@ -3,7 +3,8 @@ p {
   color: white;
 }
 .blueLayer .textContent p {
-  line-height: 1.6;
+  line-height: 1.7;
+  font-family: "Montserrat ", sans-serif;
 }
 
 .blueLayer {
@@ -20,15 +21,22 @@ p {
   text-transform: capitalize;
 
   padding: 30px;
+
+  font-family: "Playfair Display ", serif;
 }
 
 .blueLayer .textContent h1 {
   background: url(../../../images/banners/index-page/blueCenterDivider.png)
     center bottom no-repeat;
+  font-family: "Playfair Display", serif;
 }
 
 .blueLayer .textContent {
   text-align: center;
+}
+.selectionGridWrapper p {
+  font-family: "Montserrat ", sans-serif;
+  opacity: 0.8;
 }
 
 .moreInfo-container {
@@ -138,7 +146,7 @@ p {
   .blueLayer .textContent p {
     padding: 0 20px;
     text-align: center;
-    width: 60%;
+    width: 50%;
     margin: auto;
     font-size: 15px;
   }

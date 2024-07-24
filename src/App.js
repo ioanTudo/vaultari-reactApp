@@ -8,8 +8,18 @@ import Contact from "./pages/contact/contact.jsx";
 import About from "./pages/about/about.jsx";
 import Footer from "./components/footer/footer.jsx";
 import Header from "./components/header/header.jsx";
+import { useEffect } from "react";
+import WebFont from "webfontloader";
 
 function App() {
+  useEffect(() => {
+    WebFont.load({
+      google: {
+        families: ["Montserrat:400,700,900", "Playfair Display:400,700,900"],
+      },
+    });
+  }, []);
+
   return (
     <BrowserRouter>
       <Header />

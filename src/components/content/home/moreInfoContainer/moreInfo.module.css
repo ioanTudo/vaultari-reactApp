@@ -10,17 +10,20 @@
 }
 .moreInfoContainer p {
   line-height: 1.6;
+  font-family: "Montserrat ", sans-serif;
+}
+.heading {
+  font-size: large;
+
+  background: url(../../../../images/banners/index-page/blueFloatLeftDivider.png)
+    left bottom no-repeat;
+
+  padding: 0px 30px 30px 30px;
+
+  font-family: "Playfair Display", serif;
 }
 
 @media (min-width: 500px) {
-  .heading {
-    font-size: large;
-
-    background: url(../../../../images/banners/index-page/blueFloatLeftDivider.png)
-      left bottom no-repeat;
-
-    padding: 0px 30px 30px 30px;
-  }
   .moreInfoGridWrapper {
     display: grid;
     grid-template-columns: 1fr;

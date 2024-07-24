@@ -1,20 +1,34 @@
 .description {
   color: #3f3f3f;
+  font-family: "Montserrat ", sans-serif;
 }
 
 .feedbackText {
   color: red;
   text-transform: capitalize;
+  font-family: "Playfair Display", serif;
+}
+.userJob {
+  text-transform: capitalize;
+  font-family: "Montserrat ", sans-serif;
 }
 
 .testimonialHeader {
   text-align: center;
   color: #072975;
   text-transform: uppercase;
+
+  font-family: "Montserrat ", sans-serif;
+  font-weight: 700;
+}
+.feedbackContainer .textContent h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
 }
 
 .feedbackUser {
   text-transform: capitalize;
+  font-family: "Montserrat ", sans-serif;
 }
 
 .feedbackContainer::after {
@@ -99,7 +113,8 @@
     padding-bottom: 30px;
   }
   .description {
-    width: 65%;
+    width: 55%;
     margin: auto;
+    line-height: 1.7;
   }
 }
