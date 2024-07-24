@@ -1,3 +1,13 @@
+.descriptionContentContainer h1,
+h2,
+.contactFormFlexWrapper h1,
+p {
+  font-family: "Playfair Display", serif;
+}
+.contactFormFlexWrapper p {
+  font-family: "Montserrat ", sans-serif;
+}
+
 @media (min-width: 500px) {
   .contactContainerGridWrapper {
     display: grid;

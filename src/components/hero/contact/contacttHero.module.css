@@ -1,3 +1,7 @@
+.heroContactFlexWrapper h1 {
+  font-family: "Playfair Display", serif;
+}
+
 @media (min-width: 500px) {
   .heroContactFlexWrapper {
     display: flex;
