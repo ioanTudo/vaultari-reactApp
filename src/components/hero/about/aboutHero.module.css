@@ -1,0 +1,29 @@
+@media (min-width: 500px) {
+  .heroAboutFlexWrapper {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 20vh;
+    background-image: url(../../../images/banners/about-page/aboutTop-banner.jpg);
+    display: flex;
+  }
+  .aboutHeroContent h1 {
+    color: white;
+    text-transform: capitalize;
+  }
+  .aboutHeroContent {
+    margin: auto;
+  }
+}
+@media (min-width: 750px) {
+  .heroAboutFlexWrapper {
+    height: 25vh;
+  }
+}
+
+@media (min-width: 1200px) {
+  .heroAboutFlexWrapper {
+    height: 30vh;
+  }
+}

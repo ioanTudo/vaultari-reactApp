@@ -1,0 +1,27 @@
+.heading {
+  color: blue;
+  text-align: center;
+  background: url(../../../../images/banners/index-page/blueCenterDivider.png)
+    bottom no-repeat;
+
+  padding: 30px;
+  text-transform: capitalize;
+}
+
+@media (min-width: 500px) {
+  .ourPartnetsGridWrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+  }
+
+  .ourPartnersContainerFlexWrapper {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (min-width: 1200px) {
+  .ourPartnetsGridWrapper {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}

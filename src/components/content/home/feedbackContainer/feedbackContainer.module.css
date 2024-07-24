@@ -1,0 +1,105 @@
+.description {
+  color: #3f3f3f;
+}
+
+.feedbackText {
+  color: red;
+  text-transform: capitalize;
+}
+
+.testimonialHeader {
+  text-align: center;
+  color: #072975;
+  text-transform: uppercase;
+}
+
+.feedbackUser {
+  text-transform: capitalize;
+}
+
+.feedbackContainer::after {
+  content: "";
+  height: 70px;
+  width: 2px;
+  background-color: #1951d6;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+}
+
+@media (min-width: 500px) {
+  .heading {
+    background: url(../../../../images/banners/index-page/blueCenterDivider.png)
+      bottom no-repeat;
+    font-size: large;
+    color: #072975;
+    padding-bottom: 30px;
+  }
+
+  .textContent {
+    text-align: center;
+    margin: 20px;
+  }
+
+  .gridWrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .flexWrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .feedbackContainer {
+    background-image: url(../../../../images/banners/index-page/whiteVaultariBackground.jpg);
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    padding-bottom: 100px;
+  }
+
+  .feedbackZone {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    text-align: center;
+    width: 70%;
+    padding: 40px 0;
+    margin: auto;
+    background-color: white;
+  }
+}
+
+@media (min-width: 750px) {
+  .gridWrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1200px) {
+  .gridWrapper {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    gap: 5px;
+  }
+  .feedbackZone {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    text-align: center;
+    width: 70%;
+    padding: 40px;
+    margin: auto;
+    background-color: white;
+  }
+  .heading {
+    font-size: 30px;
+    padding-bottom: 30px;
+  }
+  .description {
+    width: 65%;
+    margin: auto;
+  }
+}

@@ -1,0 +1,155 @@
+h1,
+p {
+  color: white;
+}
+.blueLayer .textContent p {
+  line-height: 1.6;
+}
+
+.blueLayer {
+  background-image: url(../../../images/banners/index-page/blueBackgroundLayer.jpg);
+  background-color: white;
+  background-position: top center;
+  background-size: cover;
+}
+
+.selectionGridWrapper h1 {
+  background: url(../../../images/banners/index-page/blueLineDivider.png) bottom
+    no-repeat;
+
+  text-transform: capitalize;
+
+  padding: 30px;
+}
+
+.blueLayer .textContent h1 {
+  background: url(../../../images/banners/index-page/blueCenterDivider.png)
+    center bottom no-repeat;
+}
+
+.blueLayer .textContent {
+  text-align: center;
+}
+
+.moreInfo-container {
+  background-color: #072975;
+}
+
+@media (min-width: 500px) {
+  .flexWrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .selectionGridWrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .blueLayer {
+    width: 100%;
+    height: 55vh;
+  }
+  .textContent h1 {
+    font-size: large;
+    text-transform: capitalize;
+
+    padding: 40px 0;
+  }
+  .textContent p {
+    font-size: small;
+  }
+
+  .boat-div {
+    background-image: url(../../../images/banners/index-page/boat-img.jpg);
+    background-color: white;
+
+    width: 100%;
+    height: 50vh;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    text-align: center;
+  }
+
+  .heart-div {
+    background-image: url(../../../images/banners/index-page/heart-img.jpg);
+    background-color: white;
+
+    width: 100%;
+    height: 50vh;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    text-align: center;
+  }
+  .mountain-div {
+    background-image: url(../../../images/banners/index-page/mountain-img.jpg);
+    background-color: white;
+
+    width: 100%;
+    height: 50vh;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    text-align: center;
+  }
+  .worker-div {
+    background-image: url(../../../images/banners/index-page/worker-img.jpg);
+    background-color: white;
+
+    width: 100%;
+    height: 50vh;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    text-align: center;
+  }
+  .selectionTextContent {
+    margin-top: 50px;
+  }
+}
+
+@media (min-width: 750px) {
+  .selectionGridWrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+  .blueLayer h1 {
+    font-size: larger;
+  }
+  .blueLayer .textContent p {
+    padding: 20px;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  .blueLayer h1 {
+    font-size: 30px;
+  }
+  .blueLayer .textContent p {
+    padding: 0 20px;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    font-size: 15px;
+  }
+  .blueLayer {
+    height: 70vh;
+    width: 100%;
+
+    background-position: center;
+  }
+
+  .selectionGridWrapper {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}

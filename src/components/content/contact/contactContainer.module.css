@@ -1,0 +1,87 @@
+@media (min-width: 500px) {
+  .contactContainerGridWrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+
+    gap: 20px;
+  }
+  .descriptionContentContainer h1 {
+    color: #2b4885;
+    text-transform: capitalize;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+  .descriptionContentContainer h2 {
+    color: #2b4885;
+    text-transform: capitalize;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+  .descriptionContentContainer p {
+    color: #3f3f3f;
+    margin: 0;
+    padding: 0;
+  }
+  .socialContainerFlexWrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+  }
+  .socialContainerFlexWrapper a {
+    padding-top: 10px;
+  }
+  .contactFormFlexWrapper form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    align-items: center;
+  }
+  .contactFormFlexWrapper {
+    width: 100%;
+    background-color: #2b4885;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .contactFormFlexWrapper p,
+  .contactFormFlexWrapper h1 {
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+  }
+  .contactFormFlexWrapper p {
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  .contactFormFlexWrapper h1 {
+    background: url(../../../images/banners/index-page/blueCenterDivider.png)
+      center bottom no-repeat;
+    padding-bottom: 30px;
+    margin-bottom: 0;
+  }
+
+  .contactFormFlexWrapper input::placeholder {
+    font-weight: bold;
+    color: #969ea5;
+
+    text-transform: uppercase;
+  }
+  .contactFormFlexWrapper input {
+    height: 35px;
+    width: 80%;
+    padding-left: 20px;
+  }
+
+  .contactFormFlexWrapper {
+    padding-bottom: 30px;
+  }
+}
+@media (min-width: 1200px) {
+  .contactContainerGridWrapper {
+    grid-template-columns: 1fr 1fr;
+
+    padding: 100px;
+  }
+}

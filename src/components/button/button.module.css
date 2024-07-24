@@ -1,0 +1,29 @@
+.button {
+  width: 250px;
+  height: 50px;
+
+  margin: auto;
+
+  font-size: 17px;
+
+  color: white;
+
+  font-weight: bold;
+
+  border: 0px;
+
+  position: relative;
+
+  background-image: linear-gradient(to right, red, orange);
+
+  cursor: pointer;
+
+  text-transform: uppercase;
+}
+.position {
+  margin: auto;
+}
+
+.button:hover {
+  background-image: linear-gradient(to left, red, orange);
+}
