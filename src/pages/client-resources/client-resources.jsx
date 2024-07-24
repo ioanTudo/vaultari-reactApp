@@ -1,9 +1,9 @@
+import { HeroClientResources } from "../../components/hero/clientResources/clientResources";
+
 const ClientResources = () => {
   return (
     <>
-      <div>
-        <h1>client resources</h1>
-      </div>
+      <HeroClientResources />
     </>
   );
 };

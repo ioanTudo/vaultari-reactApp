@@ -1,0 +1,26 @@
+@media (min-width: 500px) {
+  .heroClientFlexWrapper {
+    display: flex;
+    flex-direction: column;
+
+    background-image: url(../../../images/banners/contact-page/contactBanner.jpg);
+
+    height: 20vh;
+    width: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .clientHeroContent {
+    margin: auto;
+  }
+  .clientHeroContent h1 {
+    text-transform: capitalize;
+  }
+}
+@media (min-width: 1200px) {
+  .heroClientFlexWrapper {
+    height: 30vh;
+  }
+}

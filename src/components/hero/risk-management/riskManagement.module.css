@@ -1,0 +1,26 @@
+@media (min-width: 500px) {
+  .heroRiskFlexWrapper {
+    display: flex;
+    flex-direction: column;
+
+    background-image: url(../../../images/banners/contact-page/contactBanner.jpg);
+
+    height: 20vh;
+    width: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .riskHeroContent {
+    margin: auto;
+  }
+  .riskHeroContent h1 {
+    text-transform: capitalize;
+  }
+}
+@media (min-width: 1200px) {
+  .heroRiskFlexWrapper {
+    height: 30vh;
+  }
+}

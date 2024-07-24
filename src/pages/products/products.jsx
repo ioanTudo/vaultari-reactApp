@@ -1,9 +1,9 @@
+import { HeroProducts } from "../../components/hero/products/products";
+
 const Products = () => {
   return (
     <>
-      <div>
-        <h1>products</h1>
-      </div>
+      <HeroProducts />
     </>
   );
 };
