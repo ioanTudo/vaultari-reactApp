@@ -2,7 +2,7 @@
   font-family: "Playfair Display", serif;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 375px) {
   .heroContactFlexWrapper {
     display: flex;
     flex-direction: column;

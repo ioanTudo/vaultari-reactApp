@@ -23,7 +23,7 @@
   font-family: "Playfair Display", serif;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 375px) {
   .moreInfoGridWrapper {
     display: grid;
     grid-template-columns: 1fr;

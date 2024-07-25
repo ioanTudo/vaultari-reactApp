@@ -43,7 +43,7 @@ p {
   background-color: #072975;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 375px) {
   .flexWrapper {
     display: flex;
     flex-direction: column;
@@ -63,7 +63,7 @@ p {
     padding: 40px 0;
   }
   .textContent p {
-    font-size: small;
+    font-size: 10px;
   }
 
   .boat-div {

@@ -42,7 +42,7 @@
   bottom: 0;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 375px) {
   .heading {
     background: url(../../../../images/banners/index-page/blueCenterDivider.png)
       bottom no-repeat;

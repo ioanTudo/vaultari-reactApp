@@ -11,7 +11,7 @@ function MenuListItems() {
   };
 
   return (
-    <ul className="nav-list">
+    <ul className="nav-ul">
       {Menu.map((menuItem, index) => (
         <li className="nav--list" key={menuItem.id}>
           <NavLink

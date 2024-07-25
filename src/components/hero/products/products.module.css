@@ -1,4 +1,4 @@
-@media (min-width: 500px) {
+@media (min-width: 375px) {
   .heroProductsFlexWrapper {
     display: flex;
     flex-direction: column;
