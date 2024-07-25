@@ -20,22 +20,16 @@ a {
   font-family: "Montserrat ", sans-serif;
   font-weight: 700;
 }
-.header .nav--ul {
-  display: flex;
 
-  flex-direction: row;
-}
 .header .nav {
   display: inline-block;
 
   color: white;
 
-  z-index: 1;
-
   justify-self: end;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 375px) {
   /* burger menu-nav */
 
   .nav {
@@ -46,7 +40,7 @@ a {
     top: 0px;
     left: -140%;
   }
-  .generic .nav ul {
+  .generic .nav-ul {
     display: flex;
     flex-direction: column;
     margin-top: 30px;
@@ -93,7 +87,7 @@ a {
     height: auto;
     vertical-align: middle;
   }
-  .header .nav ul {
+  .header .nav-ul {
     display: flex;
     flex-direction: row;
     margin-top: 0px;

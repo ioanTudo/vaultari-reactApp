@@ -10,7 +10,7 @@
   font-family: "Playfair Display", serif;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 375px) {
   .ourPartnetsGridWrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
