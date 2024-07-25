@@ -1,3 +1,8 @@
+.heroAboutFlexWrapper h1 {
+  font-family: "Playfair Display", serif;
+  text-transform: capitalize;
+}
+
 @media (min-width: 500px) {
   .heroAboutFlexWrapper {
     background-position: center;

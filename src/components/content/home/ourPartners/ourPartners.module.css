@@ -1,11 +1,13 @@
 .heading {
-  color: blue;
+  color: #072975;
   text-align: center;
   background: url(../../../../images/banners/index-page/blueCenterDivider.png)
     bottom no-repeat;
 
   padding: 30px;
   text-transform: capitalize;
+
+  font-family: "Playfair Display", serif;
 }
 
 @media (min-width: 500px) {

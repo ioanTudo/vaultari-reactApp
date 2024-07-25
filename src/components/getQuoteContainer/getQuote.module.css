@@ -1,5 +1,19 @@
 .content {
   line-height: 1.6;
+
+  font-family: "Montserrat ", sans-serif;
+}
+
+.heading {
+  font-size: large;
+
+  background: url(../../images/banners/index-page/blueCenterDivider.png) bottom
+    no-repeat;
+
+  padding: 30px;
+  text-transform: capitalize;
+
+  font-family: "Playfair Display", serif;
 }
 
 @media (min-width: 500px) {
@@ -8,15 +22,7 @@
     flex-direction: column;
     text-align: center;
   }
-  .heading {
-    font-size: large;
 
-    background: url(../../images/banners/index-page/blueCenterDivider.png)
-      bottom no-repeat;
-
-    padding: 30px;
-    text-transform: capitalize;
-  }
   .content {
     font-size: small;
     padding-bottom: 30px;
@@ -60,7 +66,7 @@
   }
   .content {
     font-size: 15px;
-    width: 70%;
+    width: 45%;
     padding-top: 0;
   }
 }

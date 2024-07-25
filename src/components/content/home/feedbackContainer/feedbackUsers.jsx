@@ -11,7 +11,7 @@ const Feedback = ({ user, role, text, rating }) => {
       {stars}
       <p className={styles.feedbackText}>{text}</p>
       <h2 className={styles.feedbackUser}>{user}</h2>
-      <span>{role}</span>
+      <span className={styles.userJob}>{role}</span>
     </div>
   );
 };

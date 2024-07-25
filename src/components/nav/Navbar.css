@@ -8,7 +8,6 @@ a {
 
 .header .nav--list {
   margin-left: 40px;
-
   font-size: 12px;
 
   list-style: none;
@@ -18,6 +17,8 @@ a {
   justify-content: center;
 
   text-transform: uppercase;
+  font-family: "Montserrat ", sans-serif;
+  font-weight: 700;
 }
 .header .nav--ul {
   display: flex;
@@ -30,8 +31,6 @@ a {
   color: white;
 
   z-index: 1;
-
-  font-weight: bold;
 
   justify-self: end;
 }

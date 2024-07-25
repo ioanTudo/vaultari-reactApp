@@ -5,7 +5,7 @@ export const AboutHero = () => {
   return (
     <div className={style.heroAboutFlexWrapper}>
       <div className={style.aboutHeroContent}>
-        <h1>about</h1>
+        <h1>about us</h1>
       </div>
     </div>
   );

@@ -1,5 +1,10 @@
 .contentDetailContainer2 {
-  line-height: 1.7;
+  line-height: 1.8;
+  font-family: "Montserrat ", sans-serif;
+}
+
+.headingDetailContainer2 {
+  font-family: "Playfair Display", serif;
 }
 
 @media (min-width: 500px) {
@@ -42,7 +47,7 @@
     height: 60vh;
   }
   .contentDetailContainer2 {
-    width: 70%;
+    width: 55%;
     margin: auto;
     font-size: 15px;
   }

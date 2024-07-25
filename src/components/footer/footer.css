@@ -4,10 +4,12 @@
 .contact-container-bottom h1 {
   color: white;
   text-transform: capitalize;
+  font-family: "Montserrat ", sans-serif;
 }
 .contact-container .products-container-bottom li,
 .contact-container .contact-container-bottom li {
   margin: 10px 0;
+  font-family: "Montserrat ", sans-serif;
 }
 .contact-container .products-container-bottom ul {
   width: 100%;
@@ -27,7 +29,8 @@ a {
 
 .bottom-nav-container {
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 750;
+  font-family: "Montserrat ", sans-serif;
 }
 
 .grid-wrapper a :hover {
@@ -43,6 +46,7 @@ a {
   text-align: center;
   color: white;
   text-transform: capitalize;
+  font-family: "Montserrat ", sans-serif;
 }
 
 @media (min-width: 500px) {
@@ -152,8 +156,8 @@ a {
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: 50px;
     margin: auto;
-    font-size: small;
-    width: 70%;
+    font-size: 13px;
+    width: 55%;
   }
 
   .bottom-nav-1 {
@@ -202,7 +206,8 @@ a {
 
   .logo-grid-wrapper {
     display: grid;
-    margin-top: 50px;
+    margin-top: 21.44px;
+
     grid-template-columns: 60px 60px 60px;
     grid-template-rows: 100px;
     gap: 10px;
@@ -242,7 +247,7 @@ a {
     grid-row: 1/2;
     justify-content: center;
 
-    margin: auto;
+    margin: 0 auto;
   }
   .contact-container .products-container-bottom {
     grid-column: 2 / 3;
