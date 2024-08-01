@@ -1,15 +1,15 @@
-import "./header.css";
 import Navbar from "../nav/Navbar";
 import Logo from "../logo/logo";
 import Phone from "../phone/phone";
 import BurgerMenu from "../burger-menu/burgerMenu";
+import style from "./header.module.css";
 
-const Header = () => {
+const Header = ({ navRef, bodyNoScrollRef }) => {
   return (
-    <header className="header">
-      <BurgerMenu />
+    <header className={style.header}>
+      <BurgerMenu navRef={navRef} bodyNoScrollRef={bodyNoScrollRef} />
       <Logo />
-      <Navbar />
+      <Navbar navRef={navRef} />
       <Phone />
     </header>
   );

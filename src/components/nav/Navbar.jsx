@@ -1,8 +1,9 @@
 import MenuListItems from "./menuListItems";
+import style from "./Navbar.module.css";
 
-const Navbar = () => {
+const Navbar = ({ navRef }) => {
   return (
-    <nav className="nav">
+    <nav ref={navRef} className={style.nav}>
       <MenuListItems />
     </nav>
   );
