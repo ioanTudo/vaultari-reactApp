@@ -13,3 +13,9 @@
   font-family: "Montserrat ", sans-serif;
   font-weight: 700;
 }
+
+@media (min-width: 375px) {
+  .phone {
+    font-size: 12px;
+  }
+}

@@ -3,7 +3,7 @@
   text-transform: capitalize;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 375px) {
   .heroAboutFlexWrapper {
     background-position: center;
     background-repeat: no-repeat;

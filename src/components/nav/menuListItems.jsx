@@ -1,5 +1,5 @@
 import { Menu } from "./menuData";
-import "./Navbar.css";
+import style from "./Navbar.module.css";
 import { NavLink } from "react-router-dom";
 import { useState } from "react";
 
@@ -11,12 +11,11 @@ function MenuListItems() {
   };
 
   return (
-    <ul className="nav-list">
+    <ul className={style.navUl}>
       {Menu.map((menuItem, index) => (
-        <li className="nav--list" key={menuItem.id}>
+        <li className={style.navLi} key={menuItem.id}>
           <NavLink
             key={menuItem.id}
-            className="link"
             style={{
               color: selectedIndex === index ? menuItem.selected : "white",
             }}

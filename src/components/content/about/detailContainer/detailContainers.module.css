@@ -1,0 +1,121 @@
+.descriptionHeader {
+  font-family: "Playfair Display", serif;
+  color: #2b4885;
+}
+.descriptionText {
+  line-height: 1.8;
+  font-family: "Montserrat ", sans-serif;
+  color: #3f3f3f;
+}
+.bigWrapper {
+  position: relative;
+  padding: 55px 0;
+}
+.bigWrapper > :last-child::after {
+  content: "";
+  position: absolute;
+
+  bottom: 0;
+  left: 50%;
+
+  height: 70px;
+  width: 2px;
+  background-color: #1951d6;
+
+  margin: auto;
+}
+.bigWrapper > :nth-child(2) {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-image: url("../../../../images/banners/about-page/vaultariBackground-blue-about.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bigWrapper > :nth-child(2) p {
+  color: white;
+}
+.bigWrapper > :nth-child(2) h2 {
+  color: white;
+}
+.bigWrapper > :nth-child(2) .containerTextContent {
+  margin: auto;
+}
+
+@media (min-width: 375px) {
+  .imageSize {
+    width: 100%;
+    height: auto;
+    padding: 30px 0;
+    margin: auto;
+  }
+  .containerTextContent {
+    text-align: center;
+  }
+  .bigWrapper > :nth-child(2) h2 {
+    background: url(../../../../images/banners/about-page/tinyBlueDivider-center.png)
+      center bottom no-repeat;
+
+    padding: 35px 0;
+    text-align: center;
+    margin: auto;
+  }
+}
+@media (min-width: 1200px) {
+  .imageSize {
+    width: 80%;
+    height: auto;
+
+    margin-top: 0;
+  }
+  .detailContainerGridWrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .imagePositionLeft {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  .imagePositionRight {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+  .descriptionText {
+    margin: auto;
+  }
+  .containerTextContent {
+    text-align: left;
+    width: 75%;
+    margin: 0 auto;
+  }
+
+  .bigWrapper > :first-child img {
+    margin: 0 auto auto 30px;
+  }
+  .bigWrapper > :first-child .containerTextContent {
+    margin: 0 30px auto auto;
+  }
+  .bigWrapper > :last-child .containerTextContent {
+    margin: 0 auto auto 30px;
+  }
+
+  .bigWrapper > :last-child img {
+    margin: auto 30px auto auto;
+  }
+  .bigWrapper > :nth-child(2) {
+    width: 100%;
+    height: 70vh;
+  }
+  .bigWrapper > :nth-child(2) h2 {
+    background: url(../../../../images/banners/about-page/tinyBlueDivider-center.png)
+      center bottom no-repeat;
+
+    padding: 45px 0;
+    text-align: center;
+    margin: auto;
+  }
+  .bigWrapper > :nth-child(2) p {
+    width: 75%;
+    text-align: center;
+  }
+}

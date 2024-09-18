@@ -1,4 +1,4 @@
-@media (min-width: 500px) {
+@media (min-width: 375px) {
   .heroClientFlexWrapper {
     display: flex;
     flex-direction: column;
@@ -11,6 +11,8 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
+    font-family: "Playfair Display", serif;
   }
   .clientHeroContent {
     margin: auto;

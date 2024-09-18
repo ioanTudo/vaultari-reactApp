@@ -1,12 +1,7 @@
-.header a {
-  color: white;
-  text-decoration: none;
-}
-
-@media (min-width: 500px) {
+@media (min-width: 375px) {
   .header {
     display: grid;
-    grid-template-columns: 50px 1fr 100px;
+    grid-template-columns: 50px 1fr 50px;
     grid-template-rows: auto;
 
     align-items: center;
@@ -17,10 +12,15 @@
 
     background-color: #000c2f;
   }
+
+  .header li a {
+    color: gray;
+    text-decoration: none;
+  }
 }
 
 @media (min-width: 1200px) {
-  .header {
+  header .header {
     display: grid;
     grid-template-columns: 250px 1fr 100px;
     grid-template-rows: auto;

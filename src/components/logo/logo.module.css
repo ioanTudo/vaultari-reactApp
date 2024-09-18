@@ -1,0 +1,17 @@
+@media (min-width: 375px) {
+  .logoImg {
+    width: 150px;
+    height: auto;
+  }
+  .logo {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+}
+
+@media (min-width: 1200px) {
+  .logo {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+}

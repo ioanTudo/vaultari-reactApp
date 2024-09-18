@@ -8,7 +8,7 @@ import Contact from "./pages/contact/contact.jsx";
 import About from "./pages/about/about.jsx";
 import Footer from "./components/footer/footer.jsx";
 import Header from "./components/header/header.jsx";
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 import WebFont from "webfontloader";
 
 function App() {
@@ -20,9 +20,11 @@ function App() {
     });
   }, []);
 
+  const navRef = useRef(null);
+
   return (
     <BrowserRouter>
-      <Header />
+      <Header navRef={navRef} />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/products" element={<Products />} />
